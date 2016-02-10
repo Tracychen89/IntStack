@@ -58,13 +58,14 @@ namespace IntStack
         {
             this.Capacity++;
             this.Capacity *= 2;
-            IntStack tempStack = new IntStack(this.Capacity);
-            while (this.top >= 0)
+            int[] tempItems = new int[Capacity];
+            int i;
+            for (i = 0; i <= top; i++ )
             {
-                tempStack.Push(this.Pop());
+                tempItems[i] = Items[i];
             }
-            this.Items = tempStack.Items;
-            this.top = tempStack.top;
+                this.Items = tempItems;
+
         }
 
         public void Push(int element)
