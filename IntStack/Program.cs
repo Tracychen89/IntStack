@@ -8,7 +8,7 @@ namespace IntStack
 {
     class Program
     {
-        
+
         static void Main(string[] args)
         {
             IntStack myStack = new IntStack();
@@ -32,21 +32,21 @@ namespace IntStack
         private int _capacity;
         public int Capacity
         {
-            get { return _capacity;}
-            set { _capacity = value;}
+            get { return _capacity; }
+            set { _capacity = value; }
         }
         private int top = -1;
         private int[] _items;
         public int[] Items
         {
-            get{return _items;}
-            set{_items = value;}
+            get { return _items; }
+            set { _items = value; }
         }
 
         public IntStack()
         {
-          Capacity = 10;
-          Items = new int[Capacity];
+            Capacity = 10;
+            Items = new int[Capacity];
         }
         public IntStack(int capacity)
         {
@@ -60,11 +60,11 @@ namespace IntStack
             this.Capacity *= 2;
             int[] tempItems = new int[Capacity];
             int i;
-            for (i = 0; i <= top; i++ )
+            for (i = 0; i <= top; i++)
             {
                 tempItems[i] = Items[i];
             }
-                this.Items = tempItems;
+            this.Items = tempItems;
 
         }
 
@@ -77,21 +77,21 @@ namespace IntStack
 
 
             }
-           
-                Items[++top] = element;
-                Console.WriteLine("Item pushed successfully!");
-            
-            
-            
+
+            Items[++top] = element;
+            Console.WriteLine("Item pushed successfully!");
+
+
+
         }
 
-        public  int Pop()
+        public int Pop()
         {
             if (top == -1)
             {
                 Console.WriteLine("Stack is empty");
                 return 0;
-              
+
             }
             else
             {
