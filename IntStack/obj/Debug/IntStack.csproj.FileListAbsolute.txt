@@ -1,0 +1,6 @@
+C:\Users\chenxin\Documents\GitHub\IntStack\IntStack\bin\Debug\IntStack.exe.config
+C:\Users\chenxin\Documents\GitHub\IntStack\IntStack\bin\Debug\IntStack.exe
+C:\Users\chenxin\Documents\GitHub\IntStack\IntStack\bin\Debug\IntStack.pdb
+C:\Users\chenxin\Documents\GitHub\IntStack\IntStack\obj\Debug\IntStack.csprojResolveAssemblyReference.cache
+C:\Users\chenxin\Documents\GitHub\IntStack\IntStack\obj\Debug\IntStack.exe
+C:\Users\chenxin\Documents\GitHub\IntStack\IntStack\obj\Debug\IntStack.pdb
